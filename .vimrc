@@ -1,14 +1,26 @@
 autocmd BufEnter *.mirah set filetype=ruby
 
-set guioptions+=m  "remove menu bar
-set guioptions+=T  "remove toolbar
-set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+
+map <C-k> <C-w><Up>
+map <C-j> <C-w><Down>
+map <C-l> <C-w><Right>
+map <C-h> <C-w><Left>
 
 map <C-t> :CommandT<Enter>
 
 colorscheme sunburst2
 
-set dy=lastline
+set guioptions-=l
+set guioptions-=r
+set guioptions-=b
+set guioptions-=L
+"set go-=Lr
+
+set display=lastline
+
+"set dy+=lastline
 set nu
 set cursorline
 
