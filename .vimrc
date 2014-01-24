@@ -1,3 +1,7 @@
+
+
+set nobackup
+
 autocmd BufEnter *.mirah set filetype=ruby
 
 set guioptions-=m  "remove menu bar
@@ -10,8 +14,8 @@ map <C-h> <C-w><Left>
 
 map <C-t> :CommandT<Enter>
 
-colorscheme sunburst2
 
+set guioptions-=e "no gui tabs
 set guioptions-=l
 set guioptions-=r
 set guioptions-=b
@@ -35,5 +39,8 @@ set si
 set pi
 set is
 
+colorscheme sunburst2
+
+set guifont=monaco:h12
 
 
