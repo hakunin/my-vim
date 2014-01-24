@@ -10,6 +10,11 @@ endif
 
 let g:colors_name = "Sunburst"
 
+"mine
+hi TabLineFill guifg=#000000 guibg=#000000
+hi TabLine guifg=#2c3033 guibg=#000000 gui=NONE
+
+
 hi Cursor  guifg=NONE guibg=#a7a7a7 gui=NONE
 hi Visual  guifg=NONE guibg=#2c3033 gui=NONE
 hi CursorLine  guifg=NONE guibg=#0d0d0d gui=NONE

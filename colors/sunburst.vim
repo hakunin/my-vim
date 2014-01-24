@@ -17,6 +17,10 @@ if exists('syntax_on')
 endif
 let colors_name = 'sunburst'
 
+
+
+
+
 " Custom Ruby/JavaScript links (thanks to vividchalk.vim from tpope)
 hi link railsMethod         PreProc
 hi link rubyDefine          Keyword
@@ -37,9 +41,9 @@ hi Normal       guifg=#f8f8f8 guibg=#000000
 hi Normal       ctermfg=253   ctermbg=0
 hi NonText      guifg=#666666 guibg=#000000
 hi NonText      ctermfg=241   ctermbg=0
-hi StatusLine   guifg=#ffffff guibg=#121212 gui=bold
+hi StatusLine   guifg=#ffffff guibg=#0b0b0b gui=bold
 hi StatusLine   ctermfg=15    ctermbg=233   cterm=bold
-hi StatusLineNC guifg=#ffffff guibg=#121212
+hi StatusLineNC guifg=#ffffff guibg=#0b0b0b
 hi StatusLineNC ctermfg=15    ctermbg=233
 hi Cursor       guifg=#000000 guibg=#a7a7a7
 hi Cursor       ctermfg=0     ctermbg=248
@@ -215,3 +219,28 @@ hi pythonParamName      guifg=#3387cc
 hi pythonParamName      ctermfg=32
 hi pythonSuperClass     guifg=#996633               gui=italic
 hi pythonSuperClass     ctermfg=95
+
+
+
+
+
+
+"mine
+hi TabLineFill guifg=#000000 guibg=#000000
+hi TabLine guifg=#2c3033 guibg=#000000 gui=NONE
+hi Cursor  guifg=NONE guibg=#a7a7a7 gui=NONE
+hi Visual  guifg=NONE guibg=#2c3033 gui=NONE
+hi CursorLine  guifg=NONE guibg=#0d0d0d gui=NONE
+hi CursorColumn  guifg=NONE guibg=#0d0d0d gui=NONE
+hi LineNr  guifg=#282828 guibg=#000000 gui=NONE
+hi VertSplit  guifg=#111111 guibg=#111111 gui=NONE
+hi MatchParen  guifg=#e28964 guibg=NONE gui=NONE
+hi StatusLine  guifg=#f8f8f8 guibg=#111111 gui=bold
+hi StatusLineNC  guifg=#555555 guibg=#111111 gui=NONE
+hi Pmenu  guifg=#89bdff guibg=NONE gui=NONE
+hi PmenuSel  guifg=NONE guibg=#2c3033 gui=NONE
+hi IncSearch  guifg=NONE guibg=#142d4b gui=NONE
+hi Search  guifg=NONE guibg=#142d4b gui=NONE
+hi Directory  guifg=#3387cc guibg=NONE gui=NONE
+hi Folded  guifg=#aeaeae guibg=#000000 gui=NONE
+
